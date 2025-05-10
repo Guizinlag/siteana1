@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+    box-sizing: border-box
+}
+ 
+body {
+    margin: 0;
+    background-color: #180F4A;
+}
+
+
+
+.questao {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 15%;
+}
+
+.questao h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 15%;
+    font-size: 25px;
+    font-family: "Courgette", cursive;
+    background-color: #281d66;
+    border: solid #ce109e;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.questao h1:hover {
+    background-color: #d88ec5;
+    
+}
+
+.questao  a {
+    text-decoration: none;
+    color: #ce109e;
+}
